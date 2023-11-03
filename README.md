@@ -1,4 +1,7 @@
 # KakaoLink-Python
+
+> **⚠️ 주의:** 카카오톡 2차 인증 이슈 때문에 작동이 안 됩니다.
+
 파이썬 버전 카카오링크
 
 ## Key Features
@@ -8,7 +11,7 @@
 ```py
 from kaling import Kakao
 
-KakaoLink = Kakao('JS KEY', 'URL')
+KakaoLink = KakaoAPI('JS KEY', 'URL')
 KakaoLink.login('ID', 'PW')
 KakaoLink.send("ROOM", {
     "link_ver": "4.0",
